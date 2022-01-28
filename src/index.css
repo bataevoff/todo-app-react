@@ -110,3 +110,7 @@ textarea:focus {
 .search input:focus {
   outline: none;
 }
+
+.delete-icon {
+  cursor: pointer;
+}
