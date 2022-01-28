@@ -12,7 +12,8 @@ function Note({ id, text, date, handleDeleteNote }) {
           icon={faTrash}
           onClick={() => handleDeleteNote(id)}
           className='delete-icon'
-          size='1.3em'/>
+          // size='12px'
+        />
       </div>
     </div>
   );
